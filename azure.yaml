@@ -1,6 +1,6 @@
 name: creativeagent
 metadata:
-  template: creativeagent@0.0.1-beta
+  template: contoso-creative-writer@0.0.1-beta
 services:
   api:
     project: ./src/api
