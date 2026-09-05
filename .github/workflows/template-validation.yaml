@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     name: template validation
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - uses: microsoft/template-validation-action@v0.3.5
+      - uses: microsoft/template-validation-action@e1206403a3695eb48b4426e3ec8b1919101ac770 # v0.3.5
         id: validation
         env:
           AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
